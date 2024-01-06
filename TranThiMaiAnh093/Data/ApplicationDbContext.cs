@@ -8,6 +8,7 @@ namespace TranThiMaiAnh093.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {}
         public DbSet<TranThiMaiAnh> TranThiMaiAnh { get; set;} 
+         public DbSet<Khoa> Khoa { get; set;} 
 
     }
 }
